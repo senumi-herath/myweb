@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Accessories Collection</title>
+  <style>
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  background-color: #fffff0;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 60px;
+  background-color: #fffff0;
+}
+
+  .logo {
+    width: 120px;   
+    height: auto;   
+  }
+
+.navbar nav a {
+  margin: 0 18px;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+
+    nav a:hover {
+      color: #0000FF;
+    }
+
+
+.icons span {
+  margin-left: 15px;
+  font-size: 18px;
+}
+
+.hero {
+  background-color: #bfbfb6;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  color: white;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  padding: 60px;
+}
+
+.product-card {
+  text-align: left;
+}
+
+.product-card img {
+  width: 100%;
+  height: 330px;
+  object-fit: cover;
+}
+
+.product-card h3 {
+  font-size: 15px;
+  margin: 12px 0 6px;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 14px;
+}
+</style>
+</head>
+<body>
+
+  
+  <header class="navbar">
+     <img src="./f & s.png" alt="Website Logo" class="logo">
+
+    <nav>
+    <a href="#">HOME</a>
+    <a href="shop pg.html">SHOP</a>
+    <a href="promotion.html">PROMOTION</a>
+    <a href="contact page.html">CONTACT</a>
+    <a href="about us page.html">ABOUT US</a>
+  </nav>
+
+  <div class="icons">
+    <a href="cart page.html">
+    <span>🛒</span>
+    </a>
+
+    <a href="signnup.php">
+    <span>👤</span>
+    </a>
+  </div>
+  </header>
+
+  <section class="hero">
+    <h1>Accessories Collection</h1>
+    <p>Complete your look with our latest accessories</p>
+  </section>
+
+  <section class="products">
+
+    <div class="product-card">
+      <a href="Leather Handbags.html">
+      <img src="./handbag.webp">
+      </a>
+      <h3>Leather Handbags</h3>
+      <p class="price">LKR 1750.00</p>
+    </div>
+
+    <div class="product-card">
+      <a href="Hustle Trucker Cap .html">
+      <img src="./cap.webp">
+      </a>
+      <h3>Hustle Trucker Cap </h3>
+      <p class="price">LKR 1250.00</p>
+    </div>
+
+    <div class="product-card">
+      <a href="Long Winter Thick Warm Knit Large Plaid Scarf.html">
+      <img src="./scarf.jpg">
+      </a>
+      <h3>Long Winter Thick Warm
+Knit Large Plaid Scarf</h3>
+      <p class="price">LKR 1290.00</p>
+    </div>
+
+    <div class="product-card">
+      <a href="Reversible Standard Lock Belt.html">
+            <img src="./belt.webp">
+      </a>
+      <h3>Reversible Standard
+Lock Belt </h3>
+      <p class="price">LKR 4990.00</p>
+    </div>
+
+  </section>
+
+</body>
+</html>

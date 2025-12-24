@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Delivery Service</title>
+
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      margin: 0;
+      background:#fffff0;
+      color: #333;
+    }
+
+    header {
+      background-color: #fffff0;
+      padding: 15px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+     .logo {
+    width: 120px;   
+    height: auto;   
+     }
+
+    header a {
+      text-decoration: none;
+      color: #000000;
+      font-weight: 600;
+    }
+
+    .delivery-container {
+      max-width: 1000px;
+      margin: 60px auto;
+      text-align: center;
+      background: #fff;
+      padding: 50px;
+      border-radius: 20px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 15px;
+    }
+
+    p.subtitle {
+      color: #666;
+      font-size: 1.1rem;
+      margin-bottom: 40px;
+    }
+
+    .delivery-options {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+    }
+
+    .card {
+      background: #fefefe;
+      border-radius: 20px;
+      padding: 30px;
+      width: 400px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    }
+
+    .card img {
+      width: 100px;
+      margin-bottom: 15px;
+    }
+
+    .card h3 {
+      font-size: 1.4rem;
+      color: #222;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      color: #555;
+      line-height: 1.6;
+      font-size: 1rem;
+      margin-bottom: 20px;
+    }
+
+    .price {
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      background-color: #000000;
+      color: white;
+      padding: 10px 25px;
+      border-radius: 30px;
+      border: none;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #0000FF;
+    }
+
+    footer {
+      margin-top: 60px;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #777;
+      padding-bottom: 20px;
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <img src="./f & s.png" alt="Website Logo" class="logo">
+    <a href="shop pg.html">Back to Shop</a>
+  </header>
+
+  <div class="delivery-container">
+    <h2>Choose Your Delivery Option 🚚</h2>
+    <p class="subtitle">We offer flexible delivery options to suit your needs — fast, safe, and reliable.</p>
+
+    <div class="delivery-options">
+
+      <div class="card">
+        <img src="./s del.png">
+        <h3>Standard Delivery</h3>
+        <p>
+          Affordable delivery option for all orders. Usually arrives within 
+          <strong>3–5 business days</strong>. Perfect for those who aren’t in a rush.
+        </p>
+        <p class="price">Rs. 350</p>
+        <p class="btn">Select Standard</p>
+      </div>
+
+      <div class="card">
+        <img src="./e del.png">
+        <h3>Express Delivery</h3>
+        <p>
+          Need it quickly? Enjoy priority shipping that ensures delivery within 
+          <strong>1–2 business days</strong>, with live tracking and updates.
+        </p>
+        <p class="price">Rs. 700</p>
+        <p class="btn">Select Express</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+   © 2025 F & S | Fast & Reliable Delivery
+  </footer>
+</body>
+</html>
